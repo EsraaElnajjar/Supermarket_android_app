@@ -51,7 +51,7 @@ Together, we're weaving code and magic to redefine how you shop for groceries.
 Have questions, feedback, or just want to say hi? Feel free to reach out to any of our team members:
 
 - **Esraa Elnajjar**
-  Email: [esraa.elnajjar@example.com](mailto:esraa.elnajjar@example.com)
+  Email: [esraaelnajjar664@gmail.com](mailto:esraaelnajjar664@gmail.com)
 
 We're excited to hear from you and are here to assist you every step of the way!
 
