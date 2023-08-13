@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="15sp"
+    tools:context=".MainActivity"
+
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="111dp"
+        android:fontFamily="monospace"
+        android:text="CONTACT US"
+        android:textColor="#00BCD4"
+        android:textColorHighlight="#00BCD4"
+        android:textColorHint="#00BCD4"
+        android:textColorLink="#03A9F4"
+        android:textSize="34sp" />
+    ]
+    <ImageView
+        android:layout_width="160dp"
+        android:layout_height="200dp"
+        android:src="@drawable/calling"/>
+
+    <EditText
+        android:inputType="phone"
+        android:maxLength="10"
+        android:padding="15sp"
+        android:id="@+id/edittextphone"
+        android:hint="Enter phone number "
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        />
+    <EditText
+        android:inputType="textImeMultiLine"
+        android:maxLength="100"
+        android:padding="15sp"
+        android:id="@+id/edittextmessage"
+        android:lines="5"
+        android:hint="Enter your message "
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        />
+
+    <Button
+        android:id="@+id/btnsend"
+        android:layout_width="214dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="40px"
+        android:background="@color/teal_200"
+        android:onClick="onsend"
+        android:text="send your problem"
+        android:textAllCaps="false"
+        android:textColor="@color/design_default_color_on_primary" />
+
+</LinearLayout>
